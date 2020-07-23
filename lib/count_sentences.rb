@@ -23,6 +23,7 @@ class String
 
   def count_sentences
     sentences=[]
-  self.split(/[.?!]/)
+  if self == (".") || ("?") || ("!")
+    self.split
   end
 end
