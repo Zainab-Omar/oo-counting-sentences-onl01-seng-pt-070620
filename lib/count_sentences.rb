@@ -24,7 +24,7 @@ class String
   def count_sentences
     sentences=[]
   if self == (/[.?!]+/)
-    self.split.count
+    sentences << self.split.count
     
   end
 end
