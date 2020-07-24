@@ -25,7 +25,7 @@ class String
     sentences=[]
   if self == (/.?!/)
     self.split.count
-    binding.pry
+    
   end
 end
 end
